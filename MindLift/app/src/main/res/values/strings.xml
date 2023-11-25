@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MindLift</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_games">Games</string>
+    <string name="nav_Exercise">Exercise</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_more">More</string>
+    <string name="game_view_content_description">Game view</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="click_on_the_circles_in_the_order">Click on the circles in the order:</string>
+    <string name="_1_a_2_b">1-A-2-B-...</string>
+    <string name="write_names_of_following_animals">Write names of following animals</string>
+    <string name="remember_following_words">Remember following words</string>
+    <string name="enter_numbers_in_forward_order">Enter numbers in forward order</string>
+    <string name="remember_following_numbers">Remember following numbers</string>
+    <string name="subtract_7_serially_from_100_for_5_times">Subtract 7 serially from 100 for 5 times</string>
+    <string name="_100">100</string>
+    <string name="_7">-7 =</string>
+    <string name="select_similarity_between_following_objects">Select similarity between following objects</string>
+
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="sign_login" translatable="false">/LOGIN</string>
+    <string name="log_signup" translatable="false">/SIGNUP</string>
+
+
+    <!--Login page    -->
+
+    <string name="loginA">LOGIN.</string>
+    <string name="email_id">Email id</string>
+    <string name="signupA">/SIGNUP.</string>
+    <string name="family_member">Family Member</string>
+    <string name="doctor">Doctor</string>
+    <string name="login_as">Login as</string>
+    <string name="passwordA">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    //More Fragment
+    <string name="more_settings">More Settings</string>
+    <string name="medication_reminder">Medication Reminder</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="detection_test">Detection Test</string>
+    <string name="set_water_drinking_reminder">Set Water Drinking Reminder</string>
+    <string name="textview">TextView</string>
+    <string name="appointment_status">Appointment Status</string>
+    <string name="nearby_doctors">Nearby Doctors</string>
+    <string name="set_routine">Set Routine</string>
+    <string name="reminder_settings">Reminder Settings</string>
+
+    <string name="yoga_amp_exercise"><![CDATA[Yoga & Exercise]]></string>
+    <string name="brain_games">Brain Games</string>
+    <string name="music">Music</string>
+    <string name="healthy_diet_tips">Healthy Diet Tips</string>
+    <string name="_10_min_listen">10 min listen</string>
+    <string name="_2_min_read">2 min read</string>
+    <string name="_5_min_watch">5 min watch</string>
+    <string name="family_phots_videos">Family Photos/Videos</string>
+    <string name="healdon">Healdon</string>
+    <string name="_5_min_play">5 min play</string>
+    <string name="_7_min_activity">7 min activity</string>
+
+    <string name="yoga">Yoga</string>
+    <string name="standing_exercise">Standing Exercise</string>
+    <string name="seated_exercise">Seated Exercise</string>
+
+    <string name="best_of_80s">Best of The v\n 80s</string>
+    <string name="best_of_70s">Best of The \n 70s</string>
+    <string name="best_of_60s">Best of The \n60s</string>
+    <string name="best_of_50s">Best of The \n50s</string>
+    <string name="moods_and_collections">Moods &amp; Collections</string>
+    <string name="chill">Chill</string>
+    <string name="spiritual">Spiritual</string>
+    <string name="indie">Indie</string>
+    <string name="pop">Pop</string>
+
+    <string name="final_prediction">Final Prediction</string>
+    <string name="game_score">Game Prediction</string>
+    <string name="voice_analysis">Voice Prediction</string>
+    <string name="moca_score">Moca Result</string>
+
+
+</resources>

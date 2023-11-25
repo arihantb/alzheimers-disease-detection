@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context=".doc_homepage">
+
+    <LinearLayout
+        android:id="@+id/doc_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/top_pane"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_icon"
+            android:onClick="goto_home"
+            android:textColor="#DC000000" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="95dp"
+            android:text="@string/app_name"
+            android:textColor="#DC000000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/doc_top_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_fpred"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fam_upbg"
+            android:onClick="pendingAppointment"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fscore_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:onClick="pendingAppointment"
+                android:text="@string/final_prediction"
+                android:textColor="#A3000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/fscore_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:onClick="pendingAppointment"
+                android:text="@string/game_score"
+                android:textColor="#A3000000"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_pending"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/fam_upbg"
+            android:onClick="pendingAppointment"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/game_score_imageView"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="pendingAppointment"
+                app:srcCompat="@drawable/brain_icon" />
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/game_score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="pendingAppointment"
+                    android:text="@string/game_score"
+                    android:textColor="#A3000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/game_score_textView"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="pendingAppointment"
+                    android:text="@string/game_score"
+                    android:textColor="#A3000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_voice_score"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/fam_upbg"
+            android:onClick="acceptedAppointment"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/vscore_imageView"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="acceptedAppointment"
+                app:srcCompat="@drawable/voice_icon" />
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/vscore_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="acceptedAppointment"
+                    android:text="@string/voice_analysis"
+                    android:textColor="#A3000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/voice_score_textView"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="pendingAppointment"
+                    android:text="@string/game_score"
+                    android:textColor="#A3000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_moca_score"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/fam_upbg"
+            android:onClick="acceptedAppointment"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/moca_socre_imageView"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="acceptedAppointment"
+                app:srcCompat="@drawable/test_icon" />
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/moca_score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="acceptedAppointment"
+                    android:text="@string/moca_score"
+                    android:textColor="#A3000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/moca_score_textView"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="pendingAppointment"
+                    android:text="@string/game_score"
+                    android:textColor="#A3000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

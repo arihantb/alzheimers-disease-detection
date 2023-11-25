@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context=".doc_homepage">
+
+    <LinearLayout
+        android:id="@+id/doc_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/doc_top_pane"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/doc_top_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_pending"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/doc_apntmnt_bg"
+            android:onClick="pendingAppointment"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pending_imageView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="pendingAppointment"
+                app:srcCompat="@drawable/doc_pending" />
+
+            <TextView
+                android:id="@+id/pending_textView"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="pendingAppointment"
+                android:text="Pending \n  Appointments"
+                android:textColor="#A3000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_accepted"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/doc_apntmnt_bg"
+            android:onClick="acceptedAppointment"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/accepted_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="acceptedAppointment"
+                app:srcCompat="@drawable/doc_accept" />
+
+            <TextView
+                android:id="@+id/accepted_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="acceptedAppointment"
+                android:text="Accepted \n Appointments"
+                android:textColor="#A3000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_search_patient"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/doc_apntmnt_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Enter Patient ID (U_id)"
+                android:textAlignment="gravity"
+                android:textColor="#A3000000"
+                android:textSize="24sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/search_bar"
+                    android:layout_width="284dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/doc_field_bg"
+                    android:clickable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingLeft="15dp" />
+
+                <Button
+                    android:id="@+id/search_patbtn"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:onClick="search_patient"
+                    android:background="@drawable/doc_front_arrow" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/doc_line" />
+
+        <TextView
+            android:id="@+id/sign_out_doc"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:onClick="signout_goto_signin"
+            android:layout_marginTop="10dp"
+            android:text="Sign out"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

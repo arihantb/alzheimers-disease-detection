@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/diettipsrecipes"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/top_pane"
+            android:gravity="center"
+            android:text="Diet Tips &amp; Recipes"
+            android:textAlignment="gravity"
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:layout_below="@+id/diettipsrecipes"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/diet_button_image"
+                android:gravity="center_vertical"
+                android:paddingLeft="40sp"
+                android:text="Today's Recipe"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:letterSpacing="0.05"
+                android:text="Good for Health"
+                android:textColor="@color/itemcolortransparent"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/oatstext"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/oats_image"
+                    android:gravity="center"
+                    android:text="Oats"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/greenvegtablestext"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/vegetables_image"
+                    android:gravity="center"
+                    android:text="Green \n Vegetables"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/grainstext"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/whole_grains_image"
+                    android:gravity="center"
+                    android:text="Whole\nGrains"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/beanstext"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/beans_image"
+                    android:gravity="center"
+                    android:text="Beans"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/diet_button_image"
+                android:gravity="center_vertical"
+                android:paddingLeft="40sp"
+                android:text="Healthy Tip of the Day"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/diet_button_image"
+                android:gravity="center_vertical"
+                android:paddingLeft="40sp"
+                android:text="Quick Recipes"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

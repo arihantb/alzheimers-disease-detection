@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_games"
+        android:icon="@drawable/dies"
+        android:title="@string/nav_games" />
+    <item
+        android:id="@+id/nav_exercise"
+        android:icon="@drawable/gym"
+        android:title="@string/nav_Exercise" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/gallery"
+        android:title="@string/nav_gallery" />
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/more"
+        android:title="@string/nav_more" />
+</menu>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/musiclinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/top_pane"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="260dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="50dp"
+
+            android:gravity="center_vertical"
+            android:paddingLeft="70dp"
+            android:text="Music"
+
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="30sp" /></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="575dp"
+            android:layout_below="@+id/musiclinearlayout"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="11dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image1"
+                    android:gravity="center"
+                    android:text="@string/best_of_80s"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image2"
+                    android:gravity="center"
+                    android:text="@string/best_of_70s"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="11dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image3"
+                    android:gravity="center"
+                    android:text="@string/best_of_60s"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image4"
+                    android:gravity="center"
+                    android:text="@string/best_of_50s"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/menu_bg"
+                android:gravity="center"
+                android:text="@string/moods_and_collections"
+                android:textAlignment="gravity"
+                android:textColor="@color/itemcolortransparent"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/music_text_chill"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="11dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:text="@string/chill"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/music_text_spiritual"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:text="@string/spiritual"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/music_text_indie"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="11dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:text="@string/indie"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/music_text_pop"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/music_image5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:text="@string/pop"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

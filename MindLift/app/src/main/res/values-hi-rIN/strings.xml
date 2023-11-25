@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healdon</string>
+
+    <string name="nav_home" >होम</string>
+    <string name="nav_games" >खेल</string>
+    <string name="nav_Exercise" >व्यायाम</string>
+    <string name="nav_gallery" >गेलरी</string>
+    <string name="nav_more" >अधिक</string>
+    <string name="game_view_content_description" >खेल देखें</string>
+
+    <string name="hello_blank_fragment" >Hello blank fragment</string>
+    <string name="todo" >TODO</string>
+    <string name="click_on_the_circles_in_the_order" >आदेश में मंडलियों पर क्लिक करें:</string>
+    <string name="_1_a_2_b" >1-A-2-B-...</string>
+    <string name="write_names_of_following_animals" >निम्नलिखित जानवरों के नाम लिखें</string>
+    <string name="remember_following_words" >निम्नलिखित शब्दों को याद रखें</string>
+    <string name="enter_numbers_in_forward_order" >आगे क्रम में नंबर दर्ज करें</string>
+    <string name="remember_following_numbers" >निम्नलिखित संख्या याद रखें</string>
+    <string name="subtract_7_serially_from_100_for_5_times" >7 को 100 में से पांच बार घटाएं</string>
+    <string name="_100" >100</string>
+    <string name="_7" >-7 =</string>
+    <string name="select_similarity_between_following_objects" >निम्नलिखित वस्तुओं के बीच समानता का चयन करें</string>
+
+
+    <string name="password">पासवर्ड</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="email_address">ईमेल पता</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="loginA">लॉग इन करें.</string>
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="signupA">/साइन अप करे</string>
+    <string name="family_member">परिवार का सदस्य</string>
+    <string name="doctor">चिकित्सक</string>
+    <string name="login_as">इससे लॉगिन करें</string>
+    <string name="passwordA">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड भूल गए</string>
+
+    <string name="more_settings">अधिक सेटिंग्स</string>
+    <string name="medication_reminder">दवा अनुस्मारक</string>
+    <string name="sign_out">प्रस्थान करें</string>
+    <string name="detection_test">डिटेक्शन टेस्ट</string>
+    <string name="set_water_drinking_reminder">पानी पीने का रिमाइंडर सेट करें</string>
+    <string name="textview">TextView</string>
+    <string name="appointment_status">नियुक्ति की स्थिति</string>
+    <string name="nearby_doctors">आस-पास के डॉक्टर</string>
+    <string name="set_routine">रूटीन सेट करें</string>
+    <string name="reminder_settings">अनुस्मारक सेटिंग्स</string>
+    <string name="yoga_amp_exercise">योग और व्यायाम करें</string>
+    <string name="brain_games">दिमाग के खेल</string>
+    <string name="music">संगीत</string>
+    <string name="healthy_diet_tips">स्वस्थ आहार युक्तियाँ </string>
+    <string name="_10_min_listen">10 मिनट सुनें</string>
+    <string name="_2_min_read">2 मिनट पढ़ा</string>
+    <string name="_5_min_watch">5 मिनट देखें</string>
+    <string name="family_phots_videos">पारिवारिक तस्वीरें / वीडियो</string>
+    <string name="healdon">Healdon</string>
+    <string name="_5_min_play">5 मिनट खेल</string>
+    <string name="_7_min_activity">7 मिनट की गतिविधि</string>
+
+    <string name="yoga">योग</string>
+    <string name="standing_exercise">स्थायी व्यायाम</string>
+    <string name="seated_exercise">बैठने का व्यायाम</string>
+
+    <string name="best_of_80s">80 के दशक के \nसर्वश्रेष्ठ</string>
+    <string name="best_of_70s">70 के दशक के \nसर्वश्रेष्</string>
+    <string name="best_of_60s">60 के दशक के \nसर्वश्रेष्</string>
+    <string name="best_of_50s">50 के दशक के \nसर्वश्रेष्</string>
+    <string name="moods_and_collections">मूड और संग्रह</string>
+    <string name="chill">द्रुतशीतन</string>
+    <string name="spiritual">आध्यात्मिक</string>
+    <string name="indie">इंडी </string>
+    <string name="pop">पॉप</string>
+
+
+    <string name="final_prediction">Final Prediction</string>
+    <string name="game_score">Game Score</string>
+    <string name="voice_analysis">Voice Analysis</string>
+    <string name="moca_score">Moca Score</string>
+
+</resources>

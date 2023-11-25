@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756073662506",
+    "firebase_url": "https://healdon-916dd.firebaseio.com",
+    "project_id": "healdon-916dd",
+    "storage_bucket": "healdon-916dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756073662506:android:bb50bd33b15de91e9d1b53",
+        "android_client_info": {
+          "package_name": "com.example.healdon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756073662506-r3e55g2tp3m3m98us1qhpbdgp7tfq2uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healdon",
+            "certificate_hash": "a807969eed7c2876085d50d13a7918b91ebff974"
+          }
+        },
+        {
+          "client_id": "756073662506-vgsvtva8mg60bjpjm5netdkctan7k5jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK9npozQnL5KLQS_x1e0Hnj9cGKa26ZCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756073662506-vgsvtva8mg60bjpjm5netdkctan7k5jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

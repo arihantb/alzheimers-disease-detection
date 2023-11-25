@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doc_patient_game_details"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/doc_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/doc_top_pane"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="221dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Patient Name:"
+        android:textColor="@color/itemcolortransparent"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:id="@+id/doc_constraintLayout1"
+        android:layout_width="391dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu_bg"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/game_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Game Prediction"
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doc_constraintLayout2"
+        android:layout_width="401dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/menu_bg">
+
+        <TextView
+            android:id="@+id/voice_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Voice Prediction"
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doc_constraintLayout3"
+        android:layout_width="391dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/doc_constraintLayout2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/menu_bg">
+
+        <TextView
+            android:id="@+id/moca_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="MoCA Score"
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doc_constraintLayout4"
+        android:layout_width="391dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:background="@drawable/bmenu_bg">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:text="Set Routine"
+            android:textColor="@color/itemcolortransparent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

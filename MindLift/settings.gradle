@@ -1,0 +1,5 @@
+rootProject.name='Healdon'
+include ':app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('F:\\BIT\\Presentations\\Hackathon\\2020\\Android files\\Final_Healdon\\Healdon\\unityLibrary')
